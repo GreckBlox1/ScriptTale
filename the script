@@ -4,13 +4,14 @@ if placeId == 117452115137842 then
     loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/7652e50c9531d2d09da95ac126feb01b7ba3a638a028c303dc3b739436d24112/download"))() -- uttc
 elseif placeId == 83363871432855 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GreckBlox1/NULLPOINTER/refs/heads/main/uttcmatch"))() -- uttc match
-end
 elseif placeId == 7150950346 then
     loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/bc5db285352894baf0307ef720d8df0e5bb9701591ee13fe2406a3a1627e465f/download"))() -- ujd singleplayer
-end
 elseif placeId == 1554960397 then
     loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/0f22da3cb681b54309413c0a19019a802b87cb27a89bcb9ba2b0c5a968f68621/download"))() -- car dealership tycoon
+else
+    game.Players.LocalPlayer:Kick("go to the right game you retarded idiot")
 end
+
 
 --[[
 
